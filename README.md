@@ -1,26 +1,18 @@
 # PQN_py
 
 **Piecewise Quadratic Neuron (PQN) model** is a spiking neuron model designed to faithfully reproduce a variety of neuronal activities with limited computational cost.
-PQN_py provides a simple python implementation of the PQN model. You can choose from the following 8 modes:
+PQN_py provides a simple python implementation of the PQN model. You can choose from the following 8 mode. Each mode is fitted to reproduce the corresponding ionic-conductance model.
 
-
-|  TH  |  TH  |
-| ---- | ---- |
-|  TD  |  TD  |
-|  TD  |  TD  |
-
-|        |Mode                            |Comment       |
-|:-------|:------------------------------:|:------------:|
-| RSexci |Regular Spiking                 |     This     |
-| RSinhi |Regular Spiking                 |    column    |
-| FS     |Fast Spiking                    |     will     |
+|        |Mode                            |Target ionic-conductance model|Comment                    |
+|:-------|:------------------------------:|:---------------------------:|:-------------------------:|
+| RSexci |Regular Spiking                 |[M.Pospischil et al., ]                             |Fitted to a excitatory cell|
+| RSinhi |Regular Spiking                 |                             |Fitted to an inhibitory cell|
+| FS     |Fast Spiking                    |              |
 | LTS    |Low-threshold Spiking           |      be      |
 | IB     |Intrinsically Bursting          |    center    |
 | EB     |Elliptic Bursting               |   aligned    |
 | PB     |Parablic Bursting               |   aligned    |
 | Class2 |Class2 of Hodgkin Classification|   aligned    |
-
-
 
 ---
 
