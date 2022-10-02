@@ -5,14 +5,14 @@ PQN_py provides a simple python implementation of the PQN model. You can choose 
 
 |        |Mode                            |Target ionic-conductance model|Comment                    |
 |:-------|:------------------------------:|:---------------------------:|:-------------------------:|
-| RSexci |Regular Spiking                 |[M.Pospischil et al., ]                             |Fitted to a excitatory cell|
-| RSinhi |Regular Spiking                 |                             |Fitted to an inhibitory cell|
-| FS     |Fast Spiking                    |              |
-| LTS    |Low-threshold Spiking           |      be      |
-| IB     |Intrinsically Bursting          |    center    |
-| EB     |Elliptic Bursting               |   aligned    |
-| PB     |Parablic Bursting               |   aligned    |
-| Class2 |Class2 of Hodgkin Classification|   aligned    |
+| RSexci |Regular Spiking                 |[1]                          |Fitted to a excitatory cell|
+| RSinhi |Regular Spiking                 |[1]                          |Fitted to an inhibitory cell|
+| FS     |Fast Spiking                    |[1]|
+| LTS    |Low-threshold Spiking           |[1]|
+| IB     |Intrinsically Bursting          |[2]|
+| EB     |Elliptic Bursting               |[3]|
+| PB     |Parablic Bursting               |[4]|
+| Class2 |Class2 of Hodgkin Classification||
 
 ---
 
