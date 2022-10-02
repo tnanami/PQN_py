@@ -14,6 +14,8 @@ PQN_py provides a simple python implementation of the PQN model. You can choose 
 | PB     |Parablic Bursting               |[4]|
 | Class2 |Class2 of Hodgkin Classification||
 
+[1] M. Pospischil, M. Toledo-Rodriguez, C. Monier, Z. Piwkowska, T. Bal, Y. Fregnac, H. Markram, and A. Destexhe, “Minimal hodgkin-huxley type models for different classes of cortical and thalamic neurons.” Biological Cybernetics, vol. 99, no. 4-5, pp. 427–441, 2008.
+
 ---
 
 ![demo](https://user-images.githubusercontent.com/108346049/191765808-160a4049-e4a5-4b7a-a9ed-0b254782c24e.png)
