@@ -9,7 +9,7 @@ PQN_py provides a simple python implementation of the PQN model. You can choose 
 |  TD  |  TD  |
 |  TD  |  TD  |
 
-
+|        |Mode                            |Comment       |
 |:-------|:------------------------------:|:------------:|
 | RSexci |Regular Spiking                 |     This     |
 | RSinhi |Regular Spiking                 |    column    |
