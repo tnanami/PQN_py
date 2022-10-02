@@ -24,5 +24,5 @@ PQN_py provides a simple python implementation of the PQN model. You can choose 
     git clone git@github.com:tnanami/PQN_py.git
     cd PQN_py
 
-    # run simulation (RSexci mode) and plot above figure
+    # run simulation (RSexci mode) and plot result
     python demo.py
