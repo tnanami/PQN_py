@@ -27,7 +27,7 @@ The PQN_py provides a simple python implementation of the PQN model. You can cho
     # run simulation (RSexci mode) and plot result
     python demo.py
 
-# Demo
+# demo.py
     # set a PQN cell
     # you can use RSexci, RSinhi, FS, LTS, IB, EB, PB, or Class2 mode
     cell0 = PQNModel(mode='RSexci')
