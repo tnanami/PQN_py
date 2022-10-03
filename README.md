@@ -30,20 +30,20 @@ The PQN_py provides a simple python implementation of the PQN model. You can cho
 # Demo
     # set a PQN cell
     # you can use RSexci, RSinhi, FS, LTS, IB, EB, PB, or Class2 mode
-    cell0=PQNModel(mode='RSexci')
+    cell0 = PQNModel(mode='RSexci')
 
     # length of simulation [s]
-    tmax=2
+    tmax = 2
 
     # set the number of iterations
-    number_of_iterations=int(tmax/cell0.PARAM['dt'])
+    number_of_iterations = int(tmax/cell0.PARAM['dt'])
 
     # set step input
-    I=np.zeros(number_of_iterations)
+    I = np.zeros(number_of_iterations)
     I[int(number_of_iterations/4):int(number_of_iterations/4*3)] = 0.09
 
     # run simulatiion
-    v0=[]
+    v0 = []
     for i in range(number_of_iterations):
       cell0.update(I[i])
       v0.append(cell0.get_membrane_potential())
