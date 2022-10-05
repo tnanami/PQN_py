@@ -2,6 +2,7 @@
 
 **Piecewise Quadratic Neuron (PQN) model** is a spiking neuron model designed to faithfully reproduce a variety of neuronal activities with limited computational cost.
 The PQN_py provides a simple python implementation of the PQN model. You can choose from the following 8 mode. Each mode is fitted to reproduce the corresponding ionic-conductance model.
+VHDL version of the PQN model is available from [PQN_vhdl](https://github.com/tnanami/PQN_vhdl "PQN_vhdl").
 
 |        |Mode                            |Target ionic-conductance model|Comment                    |
 |:-------|:------------------------------:|:---------------------------:|:-------------------------:|
@@ -63,3 +64,6 @@ The PQN_py provides a simple python implementation of the PQN model. You can cho
     ax1.set_ylabel("I")
     plt.savefig("demo.png")
     plt.show()
+
+## Example
+![all](https://user-images.githubusercontent.com/108346049/194097484-b11a4031-efba-43f9-9c8b-e6649d6cb27f.png)
