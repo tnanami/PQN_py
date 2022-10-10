@@ -66,4 +66,4 @@ VHDL version of the PQN model is available from [PQN_vhdl](https://github.com/tn
     plt.show()
 
 ## Example
-![all](https://user-images.githubusercontent.com/108346049/194097484-b11a4031-efba-43f9-9c8b-e6649d6cb27f.png)
+![all](https://user-images.githubusercontent.com/108346049/194805308-21d9f7dc-2839-4769-b867-ef19733ac69b.png)
