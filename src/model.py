@@ -240,7 +240,7 @@ class PQNModel:
             self.PARAM['bgn']=-2
             self.PARAM['cgn']=-16
             self.PARAM['tau']=0.0064
-            self.PARAM['I0']=0
+            self.PARAM['I0']=-16
             self.PARAM['k']=8
             self.PARAM['phi']=0.09375
             self.PARAM['rg']=-3
